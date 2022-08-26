@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(180deg, rgb(236, 253, 255), white);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+form{
+    width: 550px;
+    margin: 20px auto;
+    padding: 0 20px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgb(179, 179, 179);
+    background-color: ghostwhite;
+}
+input:focus, textarea:focus, select:focus{
+    background-color: rgb(175, 175, 216);
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    padding-top: 20px;
+}
+li{
+    padding: 10px 0;;
+}
+.field-input, textarea, select{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.field-input, select{
+    height: 2rem;
+}
+textarea{
+    height: 8rem
+}
+#tandclabel{
+    font-weight: bold;
+    padding: 15px 0;
+}
+#buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    width: 80px;
+    height: 2rem;
+    margin: 0 3px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: 2px solid rgb(57, 57, 106);
+    cursor: pointer;
+}
+#clear-button{
+    background-color: ghostwhite;
+    color: rgb(57, 57, 106);
+    
+}
+#submit-button{
+    background-color: rgb(57, 57, 106);
+    color: ghostwhite;
+}

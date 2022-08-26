@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="post">
+        <ul>
+            <h2>How can we help you?</h2>
+            <li>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" class="field-input" required>
+            </li>
+            <li>
+                <label for="mailid">Your E-Mail Address</label>
+                <input type="email" name="mailid" id="mailid" class="field-input" required>
+            </li>
+            <li>
+                <label for="phone">Your Phone Number</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" class="field-input" required>
+            </li>
+            <li>
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+            </li>
+            <li>
+                <label for="reference">How did you find us?</label>
+                <select name="reference" id="reference">
+                    <option value="internet">Web Search</option>
+                    <option value="acquaintance">Friends/Family</option>
+                    <option value="advert">Advertising</option>
+                </select>
+            </li>
+            <h2>How should we reply?</h2>
+            <li>
+                <input type="radio" name="reply" id="call-reply">
+                <label for="call-reply">Call me</label>
+            </li>
+            <li>
+                <input type="radio" name="reply" id="mail-reply">
+                <label for="mail-reply">Send me an e-mail</label>
+            </li>
+            <li>
+                <input type="radio" name="reply" id="dontreply">
+                <label for="dontreply">Don't reply</label>
+            </li>
+            <li id="tandclabel">
+                <input type="checkbox" name="t-and-c" id="t-and-c" required>
+                <label for="t-and-c">Accept terms & conditions</label>
+            </li>
+            <li id="buttons">
+                <button type="reset" class="button" id="clear-button">Clear</button>
+                <button type="submit" class="button" id="submit-button">Submit</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
