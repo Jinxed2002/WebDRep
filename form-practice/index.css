@@ -16,7 +16,7 @@ form{
     background-color: ghostwhite;
 }
 input:focus, textarea:focus, select:focus{
-    background-color: rgb(175, 175, 216);
+    background-color: rgb(219, 219, 245);
 }
 ul{
     list-style: none;
