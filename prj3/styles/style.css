@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(43, 43, 43);
+    background-color: rgb(225, 225, 225);
+}
+
+#main-header{
+    background-color: rgb(236, 63, 255);
+    color: rgb(253, 253, 203);
+    padding: 1.5rem 5%;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(236, 63, 255);
+    color: rgb(253, 253, 203);
+    font: inherit;
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(236, 63, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt{
+    background-color: transparent;
+    color: rgb(236, 63, 255);
+    font: inherit;
+    padding:0.5rem 1rem;
+    border: 2px solid rgb(236, 63, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(167, 39, 199);
+    border-color: rgb(167, 39, 199);
+}
+
+.btn-alt:hover{
+    color: rgb(167, 39, 199);
+    border-color: rgb(167, 39, 199);
+}

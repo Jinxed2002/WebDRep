@@ -1,0 +1,54 @@
+#player-config{
+    text-align: center;
+}
+
+#player-config h2{
+    margin: 0.5rem 0;
+}
+
+.input-field{
+    margin: 1rem 0;
+}
+
+.input-field input{
+    font: inherit;
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+#player-config button{
+    margin: 0.5rem 0;
+}
+
+#player-config-panel{
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+#player-config-panel ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#player-config-panel li{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(215, 209, 209);
+    border-radius: 4px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+}
+
+#player-config-panel h2{
+    color: rgb(236, 63, 255);
+}
+
+#player-config-panel p{
+    color: rgb(236, 63, 255);
+    font-size: 2rem;
+    font-weight: bold;
+}
