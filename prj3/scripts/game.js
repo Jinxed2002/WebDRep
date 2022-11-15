@@ -1,4 +1,5 @@
 function resetGame(){
+    finished = false;
     currentPlayer = 0;
     round = 1;
     over.firstElementChild.innerHTML = "You Won, <span id=\"winner\">player</span>!";
